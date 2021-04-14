@@ -12,7 +12,7 @@ import Copyright from "../shared/Copyright"
 import FormatQuote from "@material-ui/icons/FormatQuote"
 import Navbar from '../shared/Navbar'
 import DefaultProjectThumbnail from '../../assets/img/default-project-thumbnail.png';
-import { Drawer } from '@material-ui/core';
+// import { Drawer } from '@material-ui/core';
 
 // import {Link} from 'react-router-dom'
 const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];

@@ -1,7 +1,26 @@
 import {makeStyles} from "@material-ui/core/styles"
+const colors = {
+    gray:'#ebecf0'
+}
 const useStyles = makeStyles((theme) => ({
     avatar: {
         margin: theme.spacing(1),
+    },
+    boardColumnsContainer:{
+        display:'flex',
+        
+    },
+    boardColumn:{
+        background:colors.gray,
+        borderRadius:'5px',
+        marginRight:'10px',
+        // height:'600px',
+        // overflowY:'scroll'
+    },
+    columnTitle:{
+        margin:'10px 10px 0',
+        display:'flex',
+        justifyContent:'space-between'
     },
     cardGrid: {
         paddingTop: theme.spacing(8),
@@ -18,8 +37,15 @@ const useStyles = makeStyles((theme) => ({
     cardContent: {
         flexGrow: 1,
     },
+    cardRoot: {
+        width: 275,
+        margin:'10px'
+    },
+    cardTitle: {
+        fontSize: 14,
+    },
     form: {
-        width: '100%', // Fix IE 11 issue.
+        width: '100%',
         marginTop: theme.spacing(3),
     },
     footer: {
@@ -55,10 +81,6 @@ const useStyles = makeStyles((theme) => ({
     submit: {
         margin: theme.spacing(3, 0, 2),
     },
-    boardColumnsContainer:{
-        display:'flex',
-        
-    }
 }));
 
 export default useStyles

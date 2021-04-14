@@ -1,10 +1,10 @@
 import React from "react";
-import TwoListDnD from "./TwoListDnd";
+import Dnd from "./Dnd";
 
 const Board = () => {
   return (
     <div className="m-sm-30">
-      <TwoListDnD />
+      <Dnd/>
     </div>
   );
 };
